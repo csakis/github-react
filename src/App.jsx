@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Results from "./components/Results";
 
 function App() {
   const [query, setQuery] = useState('');
@@ -22,6 +23,8 @@ function App() {
         />
         <button className="btn btn-primary m-2">Submit</button>
       </form>
+{/* {results} */}
+      <Results items={results} />
     </div>
   );
 }
