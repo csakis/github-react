@@ -12,7 +12,6 @@ function App() {
     setResults(json.items)
   }
 
-
   return (
     <div className="container mt-3">
       <form onSubmit={e=> sendSearch(e)}>
@@ -23,7 +22,6 @@ function App() {
         />
         <button className="btn btn-primary m-2">Submit</button>
       </form>
-{/* {results} */}
       <Results items={results} />
     </div>
   );

@@ -6,10 +6,10 @@ function Card(props) {
         <h5 className="card-title">{full_name}</h5>
         <h6 className="card-subtitle mb-2 text-muted">Crated: {created_at}</h6>
         <p className="card-text">Visibility: {visibility}</p>
-        <a href={ssh_url} class="card-link">
-          sshurl
+        <a href={ssh_url} className="card-link">
+          ssh url
         </a>
-        <a href={git_url} class="card-link">
+        <a href={git_url} className="card-link">
           git url
         </a>
       </div>
